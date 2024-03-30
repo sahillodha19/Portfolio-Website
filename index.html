@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahil in a nutshell</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="https://www.google.com"><img class="logo" src="Images/S.png"></a>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Soft. Developer</p>
+                <h1>Hi, I'm <span>Sahil</span> Lodha <br>from Mohali, Chandigarh</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------About------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                   <img src="Images/user.jpg" alt=""> 
+                </div>
+                <div class="about-col-2">
+                   <h1 class="sub-title">About Me</h1>
+                   <p>An Associate Software Developer with an experience of
+                    working on live projects to meet the client’s expectations.
+                    Proficient in problem solving and working with a team, I
+                    look forward to give my best to help me and my
+                    organization grow.</p>
+
+                   <div class="tab-titles"> 
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages: </span>PHP, C++, C, SQL, Python, JavaScript, HTML, CSS</li>
+                            <li><span>Frameworks: </span>MVC Frameworks, Laravel, Node.js</li>
+                            <li><span>Databases: </span>Sql, MongoDB</li>
+                        </ul>
+                   </div>
+                   <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span style="font-size: 20px;"> Associate Software Developer </span> Walkwel Technology</li>
+                            <li>• Worked in the PHP team to manage client’s day-to-day queries.</li>
+                            <li>• Worked on Laravel to implement the MVC framework. Created an interview scheduling app with different user roles.</li>
+                            <li>• Worked on WordPress to create custom post types (pages, posts), and custom templates, used plugins like Elementor,Woocommerce, etc.</li>
+                            <li>• Worked on Shopify to manage client’swebsites, created product templates, used apps, and solved regular queries involving scripts and CSS.</li>
+                        </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul class="education-content">
+                        <li>
+                            <div class="date">7/2020 - present</div>
+                            <span>Chandigarh University</span>
+                            <div class="location">Mohali, Punjab</div>
+                            <p>B.E. CSE (Hons. Big Data and Analytics) | CGPA: 8.5</p>
+                        </li>
+                        <br>
+                        <li>
+                            <div class="date">03/2020</div>
+                            <span>Burnpur Riverside School</span>
+                            <div class="location">Burnpur, West Bengal</div>
+                            <p>Intermediate | PCM | Percentage: 95.8%</p>
+                        </li>
+                        <br>
+                        <li>
+                            <div class="date">03/2018</div>
+                            <span>St. Patrick’s H.S. School</span>
+                            <sdiv class="location">Asansol, West Bengal</div>
+                            <p>Matriculation | PCMB | Percentage: 95.5%</p>
+                        </li>
+                    </ul>
+                    
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------Portfolio-------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+
+                    <div class="work-1">
+                        <img src="Images/work-1.png" alt="">
+                        <div class="layer">
+                            <h3>Blog Application</h3>
+                            <p>Blog Management : Easy blog creation, editing, and deletion.
+                                User Authentication & Authorization: Secure user registration and login.
+                                Personalized Experience: Customizable user profiles and dashboards.
+                                Social Networking: Messaging system and follow/unfollow functionality.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="work-1">
+                        <img src="Images/work-2.png" alt="">
+                        <div class="layer">
+                            <h3>Interview Scheduling App</h3>
+                            <p>Role-based Access Control: Implemented authentication and authorization mechanisms for admin, interviewer,
+                                and candidate users, ensuring secure access to relevant features.<br>
+                                Scheduling Functionality: Enabled users to schedule and manage interviews efficiently through an intuitive
+                                interface.<br>
+                                Notification System: Integrated email notifications to keep users informed about interview updates and
+                                reminders.<br>
+                                Customizable Dashboard: Designed customizable dashboards for different user roles, providing a tailored
+                                experience based on user needs.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work-1">
+                        <img src="Images/work-3.png" alt="">
+                        <div class="layer">
+                            <h3>Movie Recommendation System</h3>
+                            <p>This is an intermediate-level project made with the help of Pythons libraries and APIs. It performs sentiment
+                                analysis based on user reviews and recommends movies. It involves collection of data from Kaggle
+                                and Wikipedia, preprocessing the data, making models, web scrapping, etc.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------Contact---------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p ><i class="fa-solid fa-paper-plane"></i>sahillodha1903@yahoo.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9832076524</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div">
+        </div>
+        <div class="copyright">
+            <p>Copyright © Sahil. Made with <i class="fa-solid fa-heart"></i> by Sahil</p>
+        </div>
+    </div>
+
+
+<script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script src="https://kit.fontawesome.com/af14c97920.js" crossorigin="anonymous"></script>
+</body>
+</html>
